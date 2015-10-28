@@ -1,7 +1,7 @@
 class PagesController < ApplicationController
   def index
-    page = params[:page]
-    render "pages/#{page}"
+    pages = params[:homes]
+      render "homes/#{page}"
   end
 
 
